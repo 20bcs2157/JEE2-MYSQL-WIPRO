@@ -7,5 +7,8 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="C:/Users/ASUS/Downloads/mysql-connector-java-8.0.12 (1).jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="lib" path="C:/Users/ASUS/Downloads/junit-jupiter-engine-5.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ASUS/Downloads/mockito-all-1.10.19.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
