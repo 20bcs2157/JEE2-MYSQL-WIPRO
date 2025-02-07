@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Address Bean -->
+    <bean id="address" class="com.wipro.Address">
+        <property name="cityName" value="Ludhiana"/>
+        <property name="stateName" value="Punjab"/>
+    </bean>
+    
+    <!-- Student Bean with Autowiring by Name -->
+    <!--  <bean id="Student" class="com.wipro.Student" autowire="byName">
+        <property name="stid" value="101"/>
+        <property name="stname" value="John Doe"/>
+    </bean>-->
+    
+    <!-- Student Bean with AutoWire Bytype -->
+    <bean id="Student" class="com.wipro.Student" autowire ="byType">
+    <property name="stid" value="101"/>
+    <property name="stname" value="sonu saini"/>
+    </bean>
+</beans>
